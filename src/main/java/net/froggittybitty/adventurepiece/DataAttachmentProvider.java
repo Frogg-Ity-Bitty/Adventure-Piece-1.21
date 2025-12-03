@@ -45,15 +45,25 @@ public class DataAttachmentProvider {
     public static final Supplier<AttachmentType<Float>> AGILITY_CAP = ATTACHMENT_TYPES.register(
             "agility_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
 
+    //-HAKI-
     public static final Supplier<AttachmentType<Float>> HAKI_STAT = ATTACHMENT_TYPES.register(
             "haki_stat", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> HAKI_EXP = ATTACHMENT_TYPES.register(
             "haki_exp", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> HAKI_EXP_NEEDED = ATTACHMENT_TYPES.register(
-            "haki_exp_needed", () -> AttachmentType.builder(() -> 20f).serialize(Codec.FLOAT).build());
+            "haki_exp_needed", () -> AttachmentType.builder(() -> 40f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> HAKI_CAP = ATTACHMENT_TYPES.register(
             "haki_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
 
+    public static final Supplier<AttachmentType<Float>> HAKI_AMOUNT = ATTACHMENT_TYPES.register(
+            "haki_amount", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
+    public static final Supplier<AttachmentType<Float>> HAKI_AMOUNT_CAP = ATTACHMENT_TYPES.register(
+            "haki_amount_cap", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
+
+    public static final Supplier<AttachmentType<Boolean>> HAKI_ON = ATTACHMENT_TYPES.register(
+            "haki_on", () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).build());
+
+    //-STAMINA-
     public static final Supplier<AttachmentType<Float>> STAMINA = ATTACHMENT_TYPES.register(
             "stamina", () -> AttachmentType.builder(() -> 100f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> STAMINA_CAP = ATTACHMENT_TYPES.register(
@@ -95,7 +105,7 @@ public class DataAttachmentProvider {
     public static final Supplier<AttachmentType<Float>> SWORD_EXP = ATTACHMENT_TYPES.register(
             "sword_exp", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> SWORD_EXP_NEEDED = ATTACHMENT_TYPES.register(
-            "sword_exp_needed", () -> AttachmentType.builder(() -> 20f).serialize(Codec.FLOAT).build());
+            "sword_exp_needed", () -> AttachmentType.builder(() -> 40f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> SWORD_CAP = ATTACHMENT_TYPES.register(
             "sword_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
 
@@ -116,6 +126,11 @@ public class DataAttachmentProvider {
             "kick_exp_needed", () -> AttachmentType.builder(() -> 20f).serialize(Codec.FLOAT).build());
     public static final Supplier<AttachmentType<Float>> KICK_CAP = ATTACHMENT_TYPES.register(
             "kick_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
+
+    public static final Supplier<AttachmentType<Boolean>> IS_KICKING = ATTACHMENT_TYPES.register(
+            "is_kicking", () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).build());
+    public static final Supplier<AttachmentType<Boolean>> IS_MIXED_FIGHTING = ATTACHMENT_TYPES.register(
+            "is_mixed_fighting", () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).build());
     
     //-DEVIL-FRUIT-//
     public static final Supplier<AttachmentType<Float>> DEVILFRUIT_MASTERY = ATTACHMENT_TYPES.register(

@@ -109,14 +109,14 @@ public class DataAttachmentProvider {
     public static final Supplier<AttachmentType<Float>> SWORD_CAP = ATTACHMENT_TYPES.register(
             "sword_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
 
-    public static final Supplier<AttachmentType<Float>> BRAWL_MASTERY = ATTACHMENT_TYPES.register(
-            "brawl_mastery", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
-    public static final Supplier<AttachmentType<Float>> BRAWL_EXP = ATTACHMENT_TYPES.register(
-            "brawl_exp", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
-    public static final Supplier<AttachmentType<Float>> BRAWL_EXP_NEEDED = ATTACHMENT_TYPES.register(
-            "brawl_exp_needed", () -> AttachmentType.builder(() -> 20f).serialize(Codec.FLOAT).build());
-    public static final Supplier<AttachmentType<Float>> BRAWL_CAP = ATTACHMENT_TYPES.register(
-            "brawl_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
+    public static final Supplier<AttachmentType<Float>> FIST_MASTERY = ATTACHMENT_TYPES.register(
+            "fist_mastery", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
+    public static final Supplier<AttachmentType<Float>> FIST_EXP = ATTACHMENT_TYPES.register(
+            "fist_exp", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());
+    public static final Supplier<AttachmentType<Float>> FIST_EXP_NEEDED = ATTACHMENT_TYPES.register(
+            "fist_exp_needed", () -> AttachmentType.builder(() -> 20f).serialize(Codec.FLOAT).build());
+    public static final Supplier<AttachmentType<Float>> FIST_CAP = ATTACHMENT_TYPES.register(
+            "fist_cap", () -> AttachmentType.builder(() -> 300f).serialize(Codec.FLOAT).build());
 
     public static final Supplier<AttachmentType<Float>> KICK_MASTERY = ATTACHMENT_TYPES.register(
             "kick_mastery", () -> AttachmentType.builder(() -> 0f).serialize(Codec.FLOAT).build());

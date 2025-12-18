@@ -51,6 +51,7 @@ public class Strenght {
             player.sendSystemMessage(Component.literal("Strenght: " + player.getData(STRENGTH_STAT)));
             player.sendSystemMessage(Component.literal("Strenght exp: " + player.getData(STRENGTH_EXP)));
             player.sendSystemMessage(Component.literal("Strenght exp needed: " + player.getData(STRENGTH_EXP_NEEDED)));
+            player.sendSystemMessage(Component.literal("//-------------------------------------------------//"));
         }
     }
 }

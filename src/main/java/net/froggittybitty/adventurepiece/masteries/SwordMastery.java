@@ -69,6 +69,7 @@ public class SwordMastery {
             player.sendSystemMessage(Component.literal("Sword Mastery: " + player.getData(SWORD_MASTERY)));
             player.sendSystemMessage(Component.literal("Sword Mastery exp: " + player.getData(SWORD_EXP)));
             player.sendSystemMessage(Component.literal("Sword Mastery exp needed: " + player.getData(SWORD_EXP_NEEDED)));
+            player.sendSystemMessage(Component.literal("//-------------------------------------------------//"));
         }
     }
 }

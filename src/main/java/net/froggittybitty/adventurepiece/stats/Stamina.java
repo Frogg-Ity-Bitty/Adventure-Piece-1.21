@@ -51,6 +51,7 @@ public class Stamina {
         if(player != null) {
             player.sendSystemMessage(Component.literal("Stamina: " + player.getData(STAMINA)));
             player.sendSystemMessage(Component.literal("Max Stamina: " + player.getData(STAMINA_CAP)));
+            player.sendSystemMessage(Component.literal("//-------------------------------------------------//"));
         }
     }
 

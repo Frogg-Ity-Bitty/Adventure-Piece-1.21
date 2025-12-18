@@ -55,6 +55,7 @@ public class Endurance {
             player.sendSystemMessage(Component.literal("Endurance: " + player.getData(ENDURANCE_STAT)));
             player.sendSystemMessage(Component.literal("Endurance exp: " + player.getData(ENDURANCE_EXP)));
             player.sendSystemMessage(Component.literal("Endurance exp needed: " + player.getData(ENDURANCE_EXP_NEEDED)));
+            player.sendSystemMessage(Component.literal("//-------------------------------------------------//"));
         }
     }
 }

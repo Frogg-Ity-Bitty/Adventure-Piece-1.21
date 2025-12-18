@@ -70,6 +70,7 @@ public class Haki {
             player.sendSystemMessage(Component.literal("Haki: " + player.getData(HAKI_STAT)));
             player.sendSystemMessage(Component.literal("Haki exp: " + player.getData(HAKI_EXP)));
             player.sendSystemMessage(Component.literal("Haki exp needed: " + player.getData(HAKI_EXP_NEEDED)));
+            player.sendSystemMessage(Component.literal("//-------------------------------------------------//"));
         }
     }
 }

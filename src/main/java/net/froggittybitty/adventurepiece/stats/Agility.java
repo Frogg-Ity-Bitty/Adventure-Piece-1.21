@@ -74,6 +74,7 @@ public class Agility {
             player.sendSystemMessage(Component.literal("Agility: " + player.getData(AGILITY_STAT)));
             player.sendSystemMessage(Component.literal("Agility exp: " + player.getData(AGILITY_EXP)));
             player.sendSystemMessage(Component.literal("Agility exp needed: " + player.getData(AGILITY_EXP_NEEDED)));
+            player.sendSystemMessage(Component.literal("//-------------------------------------------------//"));
         }
     }
 }
